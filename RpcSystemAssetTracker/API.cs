@@ -477,33 +477,4 @@ namespace Neo.Plugins
             return result;
         }
     }
-
-    public static class _JeePluginExt_
-    {
-        public static string AsAddress(this KeyPair kp)
-        {
-            return Contract
-                .CreateSignatureRedeemScript(kp.PublicKey)
-                .ToScriptHash()
-                .ToAddress();
-        }
-
-        public static string AsSignatureScript(this KeyPair kp)
-        {
-            var bytes = kp.PublicKey.EncodePoint(true);
-            return ("21" + bytes.ToHexString() + "ac");
-        }
-
-        public static byte[] ToBytePrivateKey(this string k1)
-        {
-            try
-            {
-                return Wallet.GetPrivateKeyFromWIF(k1);
-            }
-            catch
-            {
-                return k1.HexToBytes();
-            }
-        }
-    }
 }

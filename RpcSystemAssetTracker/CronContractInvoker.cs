@@ -4,17 +4,16 @@ using Neo.Ledger;
 using Neo.Network.P2P.Payloads;
 using Neo.Network.RPC;
 using Neo.SmartContract;
-using Neo.Wallets;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Numerics;
+using Neo.Wallets;
 using RandomNumberGenerator = System.Security.Cryptography.RandomNumberGenerator;
 
 namespace Neo.Plugins
 {
-
     public partial class RpcSystemAssetTrackerPlugin
     {
         private JObject CreateAddress()
