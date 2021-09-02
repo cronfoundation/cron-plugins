@@ -4,7 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Cron.Plugins</RootNamespace>
     <LangVersion>latest</LangVersion>
-    <PackageVersion>2.15.1</PackageVersion>
+    <PackageVersion>2.15.2</PackageVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CRON.Plugin.RpcNep5Tracker</PackageId>
     <AssemblyVersion>2.15.1</AssemblyVersion>
@@ -17,6 +17,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="CRONIUM" Version="2.15.1" />
+    <PackageReference Include="CRONIUM" Version="2.15.3" />
   </ItemGroup>
 </Project>

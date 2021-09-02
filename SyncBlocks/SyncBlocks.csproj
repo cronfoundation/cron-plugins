@@ -11,12 +11,12 @@
         <Product>CRON.Plugin.SyncBlocks</Product>
         <AssemblyVersion>1.0.6</AssemblyVersion>
         <FileVersion>1.0.6</FileVersion>
-        <PackageVersion>2.15.1</PackageVersion>
+        <PackageVersion>2.15.2</PackageVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="CRONIUM" Version="2.15.2" />
+      <PackageReference Include="CRONIUM" Version="2.15.3" />
     </ItemGroup>
 
 </Project>

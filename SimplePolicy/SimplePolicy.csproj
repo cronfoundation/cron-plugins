@@ -6,7 +6,7 @@
     <RootNamespace>Cron.Plugins</RootNamespace>
     <LangVersion>latest</LangVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageVersion>2.15.1</PackageVersion>
+    <PackageVersion>2.15.2</PackageVersion>
     <PackageId>CRON.Plugin.SimplePolicy</PackageId>
     <AssemblyVersion>2.15.1</AssemblyVersion>
     <FileVersion>2.15.1</FileVersion>
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CRONIUM" Version="2.15.1" />
+    <PackageReference Include="CRONIUM" Version="2.15.3" />
   </ItemGroup>
 
 </Project>

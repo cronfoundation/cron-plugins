@@ -12,14 +12,14 @@
     <PackageProjectUrl>https://github.com/cronfoundation/cronium-plugins</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/cronfoundation/cronium-plugins.git</RepositoryUrl>
-    <PackageVersion>2.15.1</PackageVersion>
+    <PackageVersion>2.15.2</PackageVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CRON.Plugin.RpcSystemAssetTracker</PackageId>
     <AssemblyVersion>2.15.1</AssemblyVersion>
     <FileVersion>2.15.1</FileVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CRONIUM" Version="2.15.1" />
+    <PackageReference Include="CRONIUM" Version="2.15.3" />
   </ItemGroup>
   <ItemGroup>
     <None Update="RpcSystemAssetTracker\config.json">
