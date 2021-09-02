@@ -434,11 +434,11 @@ namespace Cron.Plugins
                (!x.Key.Equals(Blockchain.GoverningToken.Hash))
             && (!x.Key.Equals(Blockchain.UtilityToken.Hash)));
 
-            Logger.Info($"== Preparing assets: {assets.Count()}");
+            // Logger.Info($"== Preparing assets: {assets.Count()}");
 
             foreach (var s in assets)
             {
-                Logger.Info($"==== {s.Value.GetName()} {s.Key.ToString()}");
+                // Logger.Info($"==== {s.Value.GetName()} {s.Key.ToString()}");
                 var tx = transactionsCache.TryGet(s.Value.AssetId);
                 if (tx != null)
                 {
@@ -458,7 +458,7 @@ namespace Cron.Plugins
                     return false;       // still only 255 token IDs available
                 if (id.Equals(aid))
                 {
-                    Logger.Info($"=== Adding {aid.ToString()} with id = {baseTokenID}");
+                    // Logger.Info($"=== Adding {aid.ToString()} with id = {baseTokenID}");
                     _dicTokenIds[aid] = baseTokenID;
                     return true;
                 }
